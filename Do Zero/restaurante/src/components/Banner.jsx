@@ -1,5 +1,5 @@
 import React from "react";
-import ImgRestaurante from "../assets/logo.jpg";
+import ImgRestaurante from "../assets/lo.jpg";
 
 const Banner = () => {
   return (

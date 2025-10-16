@@ -3,20 +3,20 @@ import Card from "./Card";
 import imgBurguer from "../assets/pratos/burguer-picanha.jpeg";
 import { pratosPrincipais, sobremesas, bebidas } from "../assets/cardapio";
 
-export const Cards = () => {
+export const Cards = ({ numCategoriaSelecionada }) => {
 
 const itensCategoria = [ pratosPrincipais, sobremesas, bebidas ];
-const pratos = itensCategoria[0];
+const categoriaSelecionada = itensCategoria[numCategoriaSelecionada];
   return (
     <div className="cards">
 
-      {pratos.map((prato) => (
+      {categoriaSelecionada.map((item) => (
         <Card
-          key={prato.id}
-          titulo={prato.nome}
-          descricao={prato.descricao}
-          preco={prato.preco}
-          imagem={prato.imagem}
+          key={item.id}
+          titulo={item.nome}
+          descricao={item.descricao}
+          preco={item.preco}
+          imagem={item.imagem}
         />
       ))}
     </div>

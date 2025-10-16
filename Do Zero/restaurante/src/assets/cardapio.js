@@ -15,25 +15,25 @@ import guaranaImg from "./bebidas/guarana.jpeg";
 import heinekenImg from "./bebidas/heineken.jpeg";
 
 const enroladinhoMignon = {
-  nome: "Enroladinho de Mignon",
+  nome: "Rolled Mignon",
   preco: "R$ 64,90",
   imagem: enroladinhoMignonImg,
-  descricao: "Finíssimas fatias de filé mignon enroladas no parmesão",
+  descricao: "Thin slices of filet mignon rolled in parmesan cheese",
 };
 
 const casal20 = {
-  nome: "Casal 20",
+  nome: "Perfect Couple",
   preco: "R$ 29,00",
   imagem: casal20Img,
-  descricao: "Casal perfeito pão de alho caseiro e linguiça toscana grill",
+  descricao: "Perfect couple: homemade garlic bread and grilled Tuscan sausage",
 };
 
 const burguerPicanha = {
-  nome: "Burguer de Picanha",
+  nome: "Angus Picanha Burger",
   preco: "R$ 44,90",
   imagem: burguerPicanhaImg,
   descricao:
-    "Burguer de Picanha Angus, Queijo Cheddar, Crisp de Cebola e Geléia de Bacon",
+    "Angus Picanha burger, cheddar cheese, crispy onions, and bacon jam",
 };
 
 const fishChips = {
@@ -41,15 +41,15 @@ const fishChips = {
   preco: "R$ 79,90",
   imagem: fishChipsImg,
   descricao:
-    "Iscas de Peixe Empanada na Farinha Panko e Flocos de Milho e Batata Frita Palito",
+    "Breaded fish strips with panko and corn flakes, served with French fries",
 };
 
 const risotoCamaraoTrufado = {
-  nome: "Risoto de Camarão Trufado",
+  nome: "Truffled Shrimp Risotto",
   preco: "R$ 72,90",
   imagem: risotoCamaraoTrufadoImg,
   descricao:
-    "Arroz Arbóreo, camarões salteados no azeite trufado e crocantes de panko",
+    "Arborio rice, shrimp sautéed in truffle oil, and crispy panko",
 };
 
 const brownie = {
@@ -57,15 +57,15 @@ const brownie = {
   preco: "R$ 32,90",
   imagem: brownieImg,
   descricao:
-    "Delicioso brownie caseiro, sorvete de creme, calda quente de chocolate",
+    "Delicious homemade brownie, vanilla ice cream, and hot chocolate sauce",
 };
 
 const cocadaForno = {
-  nome: "Cocada de Forno",
+  nome: "Baked Coconut",
   preco: "R$ 32,90",
   imagem: cocadaFornoImg,
   descricao:
-    "Cremosa cocada de coco torrado, doce de leite argentino e sorvete de creme",
+    "Creamy toasted coconut dessert, Argentinian dulce de leche, and vanilla ice cream",
 };
 
 const petitGateau = {
@@ -73,18 +73,18 @@ const petitGateau = {
   preco: "R$ 34,90",
   imagem: petitGateauImg,
   descricao:
-    "Bolo quente recheado com ganache de chocolate, leite condensado e castanha de caju",
+    "Warm cake filled with chocolate ganache, condensed milk, and cashew nuts",
 };
 
 const aguaSemGas = {
-  nome: "Água sem gás",
+  nome: "Still Water",
   preco: "R$ 6,90",
   imagem: aguaSemGasImg,
   descricao: "310ml",
 };
 
 const aguaComGas = {
-  nome: "Água com gás",
+  nome: "Sparkling Water",
   preco: "R$ 7,90",
   imagem: aguaComGasImg,
   descricao: "310ml",
